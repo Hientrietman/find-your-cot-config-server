@@ -1,0 +1,13 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: test
+
+some:
+  value: 123
+
+logging:
+  level:
+    root: INFO

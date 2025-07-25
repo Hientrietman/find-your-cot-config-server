@@ -2,4 +2,4 @@ server:
   port: 8081
 
 app:
-  message: aaaaaa
+  message: default profile for user-service

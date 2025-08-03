@@ -1,5 +1,11 @@
 server:
   port: 8082
-
+jwt:
+  key:
+    private: classpath:keys/private.pem
+    public: classpath:keys/public.pem
+  expiration:
+    access-token-ms: 900000     # 15 minutes
+    refresh-token-ms: 604800000 # 7 days
 app:
   message: default profile for auth-service
